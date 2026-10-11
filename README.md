@@ -1,4 +1,4 @@
-# TransX - Transformer Maintenance Platform
+# ThermoSight AI-Powered Transformer Inspection and Fault Detection Platform
 
 > **Complete 4-Phase Implementation:** Transformer Management, Anomaly Detection, Annotation System, and Comprehensive Inspection Workflow
 
