@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+ML/bin/
+ML/include/
+ML/lib/
+ML/share/
+
+# Node
+node_modules/
+frontend/node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+build/
+dist/
+frontend/build/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# OS
+Thumbs.db
+
+# Misc
+*.bak
+*.tmp
+*.old
+
+# Data
+*.sqlite3
+*.db
+*.csv
+*.tsv
+*.dat
+*.h5
+*.pth
+*.pt
+*.weights
+# Allow essential trained model weights
+!transformer-inspector/Faulty_Detection/yolov8p2.pt
+
+# User Uploads and Local Runtime Data
+transformer-inspector/backend/uploads/*
+!transformer-inspector/backend/uploads/.gitkeep
+
+# Docker
+*.pid
+
+# Gradle
+.gradle/
+transformer-inspector/backend/build/
+transformer-inspector/backend/.gradle/
+transformer-inspector/backend/out/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Others
+ml-service/__pycache__/
+ml-service/feedback_data/
+ml-service/runs/
+ml-service/auto_feedback_*/
+ml-service/quick_finetune/
+ml-service/__pycache__/
+transformer-inspector/ml-service/__pycache__/
+transformer-inspector/ml-service/feedback_data/
+transformer-inspector/ml-service/runs/
+transformer-inspector/ml-service/auto_feedback_*/
+transformer-inspector/ml-service/quick_finetune/
